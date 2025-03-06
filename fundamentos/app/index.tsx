@@ -10,7 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-     <Link href="/exemplo">
+     <Link href="/primeiro">
         <Text>Primeiro Exemplo</Text>
      </Link>
     </View>

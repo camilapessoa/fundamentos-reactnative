@@ -10,6 +10,10 @@ export default function Index() {
         alignItems: "center",
       }}
     >
+      <Link href="/estilo">
+        <Text>Estilo Compartilhado</Text>
+      </Link>
+
       <Link href="/modelo">
         <Text>Componente Modelo</Text>
       </Link>

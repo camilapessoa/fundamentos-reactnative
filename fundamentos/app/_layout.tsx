@@ -6,5 +6,6 @@ export default function RootLayout() {
       <Stack.Screen name="index" />
       <Stack.Screen name="primeiro" />
       <Stack.Screen name="modelo" />
+      <Stack.Screen name="estilo" />
     </Stack>
 );}

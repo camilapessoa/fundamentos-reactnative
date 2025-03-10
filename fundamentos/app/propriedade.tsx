@@ -1,8 +1,11 @@
+import MinMax from "@/components/basicos/MinMax";
 import { Text, View, StyleSheet } from "react-native";
 export default function Modelo(){
     return (
         <View style={styles.container}>
-            <Text style={styles.texto}>Componente Modelo</Text>
+            <Text style={styles.texto}>Passando Props</Text>
+           <MinMax min={3} max={20} />
+           <MinMax min={300} max={3255} />
         </View>
     )
 }

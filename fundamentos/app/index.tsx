@@ -10,6 +10,10 @@ export default function Index() {
         alignItems: "center",
       }}
     >
+      <Link href="/propriedade">
+        <Text>Passando Props</Text>
+      </Link>
+
       <Link href="/componente">
         <Text>Utilizando Componentes</Text>
       </Link>

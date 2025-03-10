@@ -10,9 +10,34 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-     <Link href="/exemplo">
+      <Link href="/lista">
+        <Text>Lista de Componentes</Text>
+      </Link>
+
+      <Link href="/condicional">
+        <Text>Renderização Condicional</Text>
+      </Link>
+
+      <Link href="/propriedade">
+        <Text>Passando Props</Text>
+      </Link>
+
+      <Link href="/componente">
+        <Text>Utilizando Componentes</Text>
+      </Link>
+
+      <Link href="/estilo">
+        <Text>Estilo Compartilhado</Text>
+      </Link>
+
+      <Link href="/modelo">
+        <Text>Componente Modelo</Text>
+      </Link>
+     <Link href="/primeiro">
         <Text>Primeiro Exemplo</Text>
      </Link>
+      
+
     </View>
   );
 }

@@ -10,6 +10,10 @@ export default function Index() {
         alignItems: "center",
       }}
     >
+      <Link href="/lista">
+        <Text>Lista de Componentes</Text>
+      </Link>
+
       <Link href="/condicional">
         <Text>Renderização Condicional</Text>
       </Link>

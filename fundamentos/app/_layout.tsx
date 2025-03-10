@@ -9,5 +9,6 @@ export default function RootLayout() {
       <Stack.Screen name="estilo" />
       <Stack.Screen name="componente" />
       <Stack.Screen name="propriedade" />
+      <Stack.Screen name="condicional" />
     </Stack>
 );}

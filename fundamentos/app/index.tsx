@@ -10,6 +10,10 @@ export default function Index() {
         alignItems: "center",
       }}
     >
+      <Link href="/condicional">
+        <Text>Renderização Condicional</Text>
+      </Link>
+
       <Link href="/propriedade">
         <Text>Passando Props</Text>
       </Link>

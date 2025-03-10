@@ -5,5 +5,6 @@ export default function RootLayout() {
     <Stack>
       <Stack.Screen name="index" />
       <Stack.Screen name="primeiro" />
+      <Stack.Screen name="modelo" />
     </Stack>
 );}
